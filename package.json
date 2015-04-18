@@ -1,0 +1,9 @@
+{
+    "name": "pagetopdf",
+    "readable": "KirbyText Extension - PageToPDF",
+    "version": "0.1",
+    "stable": false,
+    "description": "Create a pdf of the current page/site",
+    "author": "Thomas Fanninger",
+    "url": "https://github.com/fanningert/kirbycms-extension-pdf"
+}

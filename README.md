@@ -4,6 +4,28 @@ Extension to create a PDF from a content page. The library is using the print vi
 
 **Attention:** This is not a working extensnion. So the status is work in progress.
 
+## Installation
+
+### via GIT
+
+Add the respository to your GIT respository.
+
+```
+git submodule add https://github.com/fanningert/kirbycms-extension-pdf.git site/plugins
+git submodule update --init --recursive
+```
+
+## Update
+
+### via GIT
+
+Go into the `site/plugins/kirbycms-extension-pdf` directory of kirby and execute following commands.
+
+```
+git submodule foreach --recursive git checkout master
+git submodule foreach --recursive git pull
+```
+
 ## KirbyText options
 
 | Option | Optional | Description |
